@@ -1,3 +1,5 @@
-NANTAWAT CHAROENRAT
-เท่มากๆเลยครับลูกพี่นันสุดหล่อ
-ig x_none_g
+# swarm01 react-nginx
+### Ref awaresome-compose
+-   https://github.com/docker/awesome-compose/tree/master/react-nginx
+### Wakatime Project
+-   https://wakatime.com/@spcn09/projects/ghhegtxjkt?start=2023-02-27&end=2023-03-05
