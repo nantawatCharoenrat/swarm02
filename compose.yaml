@@ -1,7 +1,9 @@
 services:
-  frontend:
+  web:
     build:
-      context: .
-    container_name: frontend
-    ports:
-      - "88:80"
+      context: app
+      target: builder
+    ports: 
+      - '80:80'
+    volumes:
+      - ./app:/var/www/html/
