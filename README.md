@@ -66,7 +66,7 @@ docker push TARGET_IMAGE[:TAG]
 ```
 
 # CREATE STACK DEPLOY
-- สร้างไฟล์ compose.yaml
+- สร้างไฟล์ docker-compose.yaml
 ```
 version: '3.7'
 services:
@@ -95,7 +95,7 @@ networks:
 - นำ compose.yaml ไป Stack Deploy on local
 
 # SWARM CLUSTER
-- Revert Proxy compose.yaml
+- สร้างไฟล์ docker-compose-RevProxy.yaml
 ```
 version: '3.7'
 services:
